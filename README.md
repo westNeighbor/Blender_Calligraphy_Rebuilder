@@ -1,7 +1,9 @@
-# Blender_Text_Writing
-Blender Addon for text writing simulator with Geometry Nodes
+# Blender_Calligraphy_Rebuilder
+Blender Addon for calligraphy/text rebuilding and writing simulator with Geometry Nodes.
 
-You can get it from Gumroad page: [Blender Text Writing Addon](https://mhstar.gumroad.com/l/buphq)
+**Add new features to rebuild calligraphy strokes from fonts and images, and optimized the writing order of Chinese characters based on Kangxi writing orders.**
+
+You can get it from Gumroad page: [Blender Calligraphy Rebuilder Addon](https://mhstar.gumroad.com/l/buphq)
 
 # installation
 > `Edit` -> `Preference` -> `Get Extensions` (select on the left side bar) -> `Install from Disk...` (on the top right dropdown)
@@ -17,7 +19,10 @@ It's pretty simple and straightforward to use. The simulator can take either inp
 
 - I use `Grease Pencil` as the writing object holder, and `Layer` as the writing content holder.
 - Remember to `Update Layer Tree` when you add new layers or delete layers.
-- The preset **Writing Animation** and **Transform** is default added for each layer under `Layer Anim`, do the adjustment as you like.
+- Several preset animations can be added for each layer under `Layer Anim`, do the adjustment as you like.
+- It can also rebuilder calligraphy from fonts or images. I optimzed the writing order of Chinsese characters based 
+on **Kangxi** writing orders, but the Chinese writing is too complicated, the so the rebuilder order probably need 
+some adjustments. You can adjust the writing order by yourself if you want.
    
 # Be aware
 
